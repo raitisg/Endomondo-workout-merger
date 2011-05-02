@@ -1,23 +1,14 @@
-html, body, p, form, ul, ol, li, h1, h2, h3, h4, h5, h6, td, input { padding:0; margin:0; }
+html, body, p, form, ul, ol, li, h1, h2, input { padding:0; margin:0; }
 
 body {
 	font-family:arial, sans-serif;
 	font-size:14px;
 }
 
-img { border:0; }
-
-a:link, a:visited {
-}
-
-a:hover, a:active {
-}
-
 h1 {
 	margin:30px 0 10px 0;
 	font-weight:normal;
 	font-size:28px;
-
 }
 
 h2 {
@@ -51,15 +42,14 @@ input[type=submit] {
 	-webkit-text-shadow:0 -1px #333;
 	-moz-text-shadow:0 -1px #333;
 	text-shadow:0 -1px #333;
-	font-weight:bold;
-
-	padding:0 10px;
-	cursor:pointer;
-	color:#fff;
 	display:inline-block;
 	font-family:inherit;
+	font-weight:bold;
+	padding:0 10px;
+	cursor:pointer;
 	font-size:24px;
 	height:40px;
+	color:#fff;
 }
 
 input[type=submit]:active {
