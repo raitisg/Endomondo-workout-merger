@@ -1,0 +1,124 @@
+html, body, p, form, ul, ol, li, h1, h2, h3, h4, h5, h6, td, input { padding:0; margin:0; }
+
+body {
+	font-family:arial, sans-serif;
+	font-size:14px;
+}
+
+img { border:0; }
+
+a:link, a:visited {
+}
+
+a:hover, a:active {
+}
+
+h1 {
+	margin:30px 0 10px 0;
+	font-weight:normal;
+	font-size:28px;
+
+}
+
+h2 {
+	font-weight:normal;
+	font-size:24px;
+	margin-bottom:10px;
+}
+
+#container {
+	overflow:hidden;
+	margin:0 auto;
+	width:710px;
+}
+
+input[type=submit] {
+	background-color:#329898;
+  background-image:-moz-linear-gradient(top, #329898, #095f5f);
+  background-image:-ms-linear-gradient(top, #329898, #095f5f);
+  background-image:-o-linear-gradient(top, #329898, #095f5f);
+  background-image:-webkit-gradient(linear, left top, left bottom, from(#329898), to(#095f5f));
+  background-image:-webkit-linear-gradient(top, #329898, #095f5f);
+  background-image:linear-gradient(top, #329898, #095f5f);
+	border:1px solid #166b5e;
+	-webkit-box-shadow:0 0 3px #444;
+	-moz-box-shadow:0 0 3px #444;
+	box-shadow:0 0 3px #444;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	text-decoration:none;
+	border-radius:2px;
+	-webkit-text-shadow:0 -1px #333;
+	-moz-text-shadow:0 -1px #333;
+	text-shadow:0 -1px #333;
+	font-weight:bold;
+
+	padding:0 10px;
+	cursor:pointer;
+	color:#fff;
+	display:inline-block;
+	font-family:inherit;
+	font-size:24px;
+	height:40px;
+}
+
+input[type=submit]:active {
+	background-color:#095f5f;
+  background-image:-moz-linear-gradient(top, #095f5f, #329898);
+  background-image:-ms-linear-gradient(top, #095f5f, #329898);
+  background-image:-o-linear-gradient(top, #095f5f, #329898);
+  background-image:-webkit-gradient(linear, left top, left bottom, from(#095f5f), to(#329898));
+  background-image:-webkit-linear-gradient(top, #095f5f, #329898);
+  background-image:linear-gradient(top, #095f5f, #329898);
+}
+
+.submit {
+	text-align:center;
+	padding:10px;
+}
+
+.input {
+	margin-bottom:10px;
+}
+
+.automatic,
+.manual {
+	background-color:#f9f9f9;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin-top:10px;
+	padding:10px;
+	float:left;
+	width:330px;
+	min-height:360px;
+}
+
+.automatic {
+	margin-right:10px;
+}
+
+p {
+	margin-bottom:10px;
+}
+
+label {
+	padding-right:5px;
+}
+
+ol {
+	list-style-position:inside;
+}
+
+li {
+	margin-bottom:10px;
+}
+
+ol span {
+	color:#009;
+}
+
+#errors {
+	margin-bottom:10px;
+	color:#d00;
+}

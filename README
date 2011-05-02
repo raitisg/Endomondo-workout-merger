@@ -1,0 +1,4 @@
+This is a tool written in PHP that merges two or more GPX files creating one GPX file with all separate routes combined into one. Written and tested solely for Endomondo (http://www.endomondo.com) workouts, because sometimes workouts can be split (e.g. mobile application crashed)
+
+Installation:
+Just copy files on server and point browser to index.php file
