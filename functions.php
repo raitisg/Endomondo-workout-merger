@@ -20,6 +20,7 @@
 		return end(explode('.', strtolower($filename)));
 	}
 
+
 	/**
 	 * Merge 2 or more workouts
 	 *
@@ -40,7 +41,12 @@
 			$file = file_get_contents($path);
 
 			if (preg_match('/<trkseg>(.*)<\/trkseg>/s', $file, $matches, PREG_OFFSET_CAPTURE)) {
-				$xml = str_replace('</trkseg>', $matches[1][0].'</trkseg>', $xml);
+				// last occurance of </trkseg>
+				$pos = strrpos($xml, '</trkseg>');
+				if ($pos !== false) {
+					// insert just before </trkseg>
+					$xml = substr_replace($xml, $matches[1][0], $pos, 0);
+				}
 			} else {
 				return false;
 			}
